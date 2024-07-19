@@ -6,10 +6,10 @@ public class Patterns {
 
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 4; j++) {
-                System.out.println("*");
+                System.out.print("*");
             }
 
-            System.out.println("\n");
+            System.out.print("\n");
         }
     }
 }
