@@ -8,7 +8,7 @@ public class Patterns4 {
                 System.out.print(i);
             }
             System.out.print("\n");
-
+            //
         }
     }
 }
