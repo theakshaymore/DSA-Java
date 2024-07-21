@@ -1,5 +1,21 @@
 package Collectionn.Sett.TreeSet;
 
-public class Base {
+import java.util.Set;
+import java.util.TreeSet;
 
+public class Base {
+    public static void main(String[] args) {
+
+        Set<Integer> nums = new TreeSet<Integer>();
+
+        nums.add(33);
+        nums.add(12);
+        nums.add(89);
+        nums.add(35);
+        nums.add(35);
+
+        for (int n : nums) {
+            System.out.println(n);
+        }
+    }
 }
