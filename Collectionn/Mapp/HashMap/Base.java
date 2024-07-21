@@ -1,4 +1,4 @@
-package Collectionn.Mapp;
+package Collectionn.Mapp.HashMap;
 
 import java.util.HashMap;
 import java.util.Map;
