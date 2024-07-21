@@ -15,9 +15,9 @@ public class Base {
         nums.add(35);
         nums.add(35);
 
-        for (int n : nums) {
-            System.out.println(n);
-        }
+        // for (int n : nums) {
+        // System.out.println(n);
+        // }
 
         // with Iterator
         Iterator<Integer> values = nums.iterator();
