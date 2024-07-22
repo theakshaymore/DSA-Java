@@ -24,10 +24,10 @@ public class SortingString {
         nums.add("atharva");
         nums.add("pd");
 
-        for (int i = 0; i <= nums.length(); i++)
-            if (i.length() > i)
+        // for (int i = 0; i <= nums.length(); i++)
+        // if (i.length() > i)
 
-                Collections.sort(nums, comparator);
+        // Collections.sort(nums, comparator);
         System.out.println(nums);
     }
 }
