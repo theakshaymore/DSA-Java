@@ -24,15 +24,17 @@ class Student {
 public class SortingStudents {
     public static void main(String[] args) {
 
-        Comparator<Student> comparator = new Comparator<Student>() {
-            public int compare(Student i, Student j) {
-                if (i.age > j.age)
-                    return 1;
-                else
-                    return -1;
+        // Comparator<Student> comparator = new Comparator<Student>() {
+        // public int compare(Student i, Student j) {
+        // if (i.age > j.age)
+        // return 1;
+        // else
+        // return -1;
 
-            }
-        };
+        // }
+        // };
+
+        Comparator<Student> comparator = (i, j) -> i.age > j.age ? 1 : -1;
 
         List<Student> student = new ArrayList<>();
         student.add(new Student(23, "akshay"));
