@@ -8,6 +8,8 @@ public class Base {
 
         List<Integer> nums = Arrays.asList(2, 8, 3, 5, 6);
 
+        nums.forEach(n -> System.out.println(n * 2));
+
         System.out.println(nums);
 
     }
