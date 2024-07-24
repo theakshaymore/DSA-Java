@@ -11,9 +11,10 @@ public class Base {
 
         Stream<Integer> s1 = nums.stream();
 
-        s1.forEach(n -> System.out.println(n * 2));
+        s1.forEach(n -> System.out.println(n));
+        s1.forEach(n -> System.out.println(n));
 
-        System.out.println(nums);
+        // System.out.println(nums);
 
     }
 }
